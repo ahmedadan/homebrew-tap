@@ -1,5 +1,5 @@
 cask "framework-wallpapers" do
-  version "2025-12-10"
+  version "2025-12-14"
 
   name "framework-wallpapers"
   desc "Wallpapers for Framework laptops"
@@ -13,7 +13,7 @@ cask "framework-wallpapers" do
 
   on_macos do
     url "https://github.com/ublue-os/artwork/releases/download/framework-v#{version}/framework-wallpapers-macos.tar.zstd"
-    sha256 "9d69f1d59e0d20d1e91fbb8c7c6e9009cb95b06058d31b407debad77a1c82da4"
+    sha256 "e3afcfdbb919d84e02b0f99c2e450514db347bd4e7dd37e9fa23fdb72d321841"
   end
 
   on_linux do
@@ -25,7 +25,7 @@ cask "framework-wallpapers" do
       sha256 "f936e03bd0486bab1ec1fdce30f93ff81fd49f949d8c9b878d51fa58dfa96524"
     else
       url "https://github.com/ublue-os/artwork/releases/download/framework-v#{version}/framework-wallpapers-png.tar.zstd"
-      sha256 "ab55af2ddf076955c6982065e827f4c1fb9864555cb151c7bb10e8187492caf3"
+      sha256 "2da39f34cb2131861da2adca1d03a6b25b0714b2e7d2686b4d14f7ed8c60e8eb"
     end
   end
 
