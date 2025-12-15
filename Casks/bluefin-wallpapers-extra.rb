@@ -1,5 +1,5 @@
 cask "bluefin-wallpapers-extra" do
-  version "2025-12-10"
+  version "2025-12-14"
 
   name "bluefin-wallpapers-extra"
   desc "Extra Wallpapers for Bluefin"
@@ -13,7 +13,7 @@ cask "bluefin-wallpapers-extra" do
 
   on_macos do
     url "https://github.com/ublue-os/artwork/releases/download/bluefin-extra-v#{version}/bluefin-wallpapers-extra-macos.tar.zstd"
-    sha256 "bce247f55c0971c8b601b63c02a62cd8e66fc502cdd620b188e9306db60123b0"
+    sha256 "a124bfc9851d6fc51c16c23704b8dc8701beec6f6c7eb9413030479b158c9f84"
   end
 
   on_linux do
@@ -25,7 +25,7 @@ cask "bluefin-wallpapers-extra" do
       sha256 "3062c5d0ec576ce896b1fda73959423b1285151c68bca44e8216c3feb14d45ba"
     else
       url "https://github.com/ublue-os/artwork/releases/download/bluefin-extra-v#{version}/bluefin-wallpapers-extra-png.tar.zstd"
-      sha256 "1d5201c6cf33f64b7cdc7a11099f79cb311aa67fd6781c4158d614209e05133f"
+      sha256 "12dd637ea62e5aa68462ce49af6143f8ae390a8fdf703a273a697f29de52b12f"
     end
   end
 
