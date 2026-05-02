@@ -32,6 +32,11 @@ cask "helium-browser-linux" do
       Categories=Network;WebBrowser;
       MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;video/webm;application/x-xpinstall;
       StartupWMClass=helium
+      Actions=new-private-window;
+
+      [Desktop Action new-private-window]
+      Name=New Private Window
+      Exec=#{HOMEBREW_PREFIX}/bin/helium --incognito
     EOS
     FileUtils.cp("#{staged_path}/helium-#{version}-x86_64_linux/product_logo_256.png",
                  "#{Dir.home}/.local/share/icons/helium.png")
